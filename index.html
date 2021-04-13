@@ -5,12 +5,19 @@
 			body { height: 100vh; margin: 0; display: flex; flex-direction: column; }
 			
 			#navigation { height: 30px; padding: 15px; flex: 0 0 auto; background: black; }
-			#inner { width: 100%; height: 100%; background: black; transition: background 0.66s ease-in-out; }
+			
+			#inner { width: 100%; height: 100%; background: black; transition: background 0.66s ease-in-out; position: relative; }
+			#abs-space { position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow: hidden; display: flex; }
+			#preview-img { background-image: url('img/Screen%20Shot%202021-04-13%20at%205.51.45%20PM.png'); width: 1192px; height: 832px; margin: auto 0 auto auto; position: relative; left: 88px; }
 		</style>
 	</head>
 	<body>
 		<div id="navigation"></div>
-		<div id="inner"></div>
+		<div id="inner">
+			<div id="abs-space">
+				<div id="preview-img"></div>
+			</div>
+		</div>
 	</body>
 	<script>
 		setTimeout(() =>
