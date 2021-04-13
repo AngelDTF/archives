@@ -11,8 +11,8 @@
 			div { color: white; font-family: 'Poppins', sans-serif; font-size: 24px; }
 			
 			#navigation { height: 60px; padding: 0 60px; flex: 0 0 auto; background: black; display: flex; flex-direction: row; }
-			.nav-btn { height: 36px; padding: 12px; margin: 0 5px; user-select: none; text-transform: uppercase; color: #BDBDBD; position: relative; user-select: none; cursor: pointer; }
-			.nav-btn::after { content: ''; position: absolute; bottom: 0; width: 0; height: 2px; margin: 0 auto; left: 0; right: 0; background: #BDBDBD; transition: width 0.18s ease-in-out; }
+			.nav-btn { height: 36px; padding: 12px; margin: 0 5px; user-select: none; text-transform: uppercase; color: #BDBDBD; position: relative; user-select: none; cursor: pointer; transition: color 0.18s ease-in-out; }
+			.nav-btn::after { content: ''; position: absolute; bottom: 0; width: 0; height: 2px; margin: 0 auto; left: 0; right: 0; background: #BDBDBD; transition: width 0.18s ease-in-out, border-color 0.18s ease-in-out; }
 			.nav-btn:hover { color: #DFDFDF; border-color: #DFDFDF; }
 			.nav-btn:hover::after { width: 50%; background: #DFDFDF; }
 			.nav-btn-selected { color: white; border-bottom: 2px solid white; padding-bottom: 10px; }
