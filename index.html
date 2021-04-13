@@ -2,10 +2,17 @@
 <html>
 	<head>
 		<title>Lilac : Home</title>
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com"> 
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins&display=swap" rel="stylesheet">
+		
 		<style>
 			body { height: 100vh; margin: 0; display: flex; flex-direction: column; }
+			div { color: white; font-family: 'Poppins', sans-serif; }
 			
-			#navigation { height: 30px; padding: 15px; flex: 0 0 auto; background: black; }
+			#navigation { height: 60px; padding: 0 60px; flex: 0 0 auto; background: black; display: flex; flex-direction: row; }
+			.nav-btn { height: 30px; padding: 15px; margin: 0 5px; user-select: none; text-transform: uppercase; }
+			#nav-btn-watermark { font-family: 'Comfortaa', cursive; text-transform: lowercase; margin-right: 20px }
 			
 			#inner { width: 100%; height: 100%; background: black; transition: background 0.66s linear; position: relative; }
 			#abs-space { position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow: hidden; display: flex; }
@@ -13,7 +20,13 @@
 		</style>
 	</head>
 	<body>
-		<div id="navigation"></div>
+		<div id="navigation">
+			<div id="nav-btn-watermark" class="nav-btn">Lilac</div>
+			<div id="nav-btn-home" class="nav-btn">Home</div>
+			<div id="nav-btn-faq" class="nav-btn">FAQ</div>
+			<div id="nav-btn-download" class="nav-btn">Download</div>
+			<div id="nav-btn-github" class="nav-btn">GitHub</div>
+		</div>
 		<div id="inner">
 			<div id="abs-space">
 				<div id="preview-img"></div>
