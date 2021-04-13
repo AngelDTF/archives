@@ -8,7 +8,7 @@
 			
 			#inner { width: 100%; height: 100%; background: black; transition: background 0.66s ease-in-out; position: relative; }
 			#abs-space { position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow: hidden; display: flex; }
-			#preview-img { background-image: url('img/Screen%20Shot%202021-04-13%20at%205.51.45%20PM.png'); width: 1192px; height: 832px; margin: auto 0; position: relative; left: 88px; opacity: 0; transition: margin 0.66s ease-in-out, opacity 0.66s ease-in-out; }
+			#preview-img { background-image: url('img/Screen%20Shot%202021-04-13%20at%205.51.45%20PM.png'); width: 1192px; height: 832px; margin: auto 0 auto auto; opacity: 0; transform: translateX(-268px); transition: transform 0.66s ease-in-out, opacity 0.66s ease-in-out; }
 		</style>
 	</head>
 	<body>
@@ -26,7 +26,7 @@
 			
 			const previewImg = document.querySelector('#preview-img');
 			previewImg.style.opacity = '1';
-			previewImg.style.margin = 'auto 0 auto auto'
+			previewImg.style.transform = 'translateX(88px)'
 		}, 10);
 	</script>
 </html>
