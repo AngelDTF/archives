@@ -10,7 +10,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins&display=swap" rel="stylesheet">
 		
 		<style>
-			a { text-decoration: none; color: #0088FF; }
+			a:not(.div-link) { text-decoration: none; color: #0088FF; }
 			body { height: 100vh; margin: 0; display: flex; flex-direction: column; }
 			div { color: white; font-family: 'Poppins', sans-serif; font-size: 24px; }
 			
@@ -21,7 +21,7 @@
 			.nav-btn:not(#nav-btn-watermark):not(.nav-btn-selected):hover::after { width: 50%; background: #DFDFDF; }
 			.nav-btn-selected { color: white; border-bottom: 2px solid white; padding-bottom: 10px; transition: border-color 0.18s ease-in-out; }
 			#nav-btn-watermark { color: #6F6F72; font-family: 'Comfortaa', cursive; font-size: 44px; text-transform: lowercase; height: 44px; margin-right: 48px; padding: 8px 12px; cursor: default; }
-			.div-link { text-decoration: initial; color: initial; }
+			a.div-link:any-link { text-decoration: initial; color: initial; }
 			
 			#inner { width: 100%; height: 100%; background: black; transition: background 0.66s linear; position: relative; display: flex; }
 			#abs-text { width: min-content; margin: auto 0 auto 276px; padding: 24px; display: flex; flex-direction: column; z-index: 2; }
