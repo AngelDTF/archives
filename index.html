@@ -21,6 +21,7 @@
 			.nav-btn:not(#nav-btn-watermark):not(.nav-btn-selected):hover::after { width: 50%; background: #DFDFDF; }
 			.nav-btn-selected { color: white; border-bottom: 2px solid white; padding-bottom: 10px; transition: border-color 0.18s ease-in-out; }
 			#nav-btn-watermark { color: #6F6F72; font-family: 'Comfortaa', cursive; font-size: 44px; text-transform: lowercase; height: 44px; margin-right: 48px; padding: 8px 12px; cursor: default; }
+			.div-link { text-decoration: initial; color: initial; }
 			
 			#inner { width: 100%; height: 100%; background: black; transition: background 0.66s linear; position: relative; display: flex; }
 			#abs-text { width: min-content; margin: auto 0 auto 276px; padding: 24px; display: flex; flex-direction: column; z-index: 2; }
@@ -32,11 +33,11 @@
 	</head>
 	<body>
 		<div id="navigation">
-			<div id="nav-btn-watermark" class="nav-btn">Lilac</div>
-			<div id="nav-btn-home" class="nav-btn nav-btn-selected">Home</div>
-			<div id="nav-btn-faq" class="nav-btn">FAQ</div>
-			<div id="nav-btn-download" class="nav-btn">Download</div>
-			<div id="nav-btn-github" class="nav-btn">GitHub</div>
+			<div id="nav-btn-watermark" class="nav-btn"><a class="div-link" href="index.html">Lilac</a></div>
+			<div id="nav-btn-home" class="nav-btn nav-btn-selected"><a class="div-link" href="index.html">Home</a></div>
+			<div id="nav-btn-faq" class="nav-btn"><a class="div-link" href="faq.html">FAQ</a></div>
+			<div id="nav-btn-download" class="nav-btn"><a class="div-link" href="download.html">Download</a></div>
+			<div id="nav-btn-github" class="nav-btn"><a class="div-link" href="https://github.com/lilacide/lilacide">GitHub</a></div>
 		</div>
 		<div id="inner">
 			<div id="abs-text">
