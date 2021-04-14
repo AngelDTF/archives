@@ -8,8 +8,8 @@ div { color: white; font-family: 'Poppins', sans-serif; font-size: 24px; }
 .nav-btn:hover { color: #DFDFDF; border-color: #DFDFDF; }
 .nav-btn:not(#nav-btn-watermark):not(.nav-btn-selected):hover::after { width: 50%; background: #DFDFDF; }
 .nav-btn-selected { color: white; transition: border-color 0.18s ease-in-out; }
-.nav-btn-selected::after { background: white; width: 100%; }
-.nav-btn-selected:hover::after { background: #DFDFDF; }
+.nav-btn.nav-btn-selected::after { background: white; width: 100%; }
+.nav-btn.nav-btn-selected:hover::after { background: #DFDFDF; }
 #nav-btn-watermark { color: #6F6F72; font-family: 'Comfortaa', cursive; font-size: 44px; text-transform: lowercase; height: 44px; margin-right: 48px; padding: 8px 12px; cursor: default; }
 
 #inner { width: 100%; height: 100%; background: #4F4F54; transition: background 0.66s linear; position: relative; display: flex; }
