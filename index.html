@@ -9,26 +9,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com"> 
 		<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins&display=swap" rel="stylesheet">
 		
-		<style>
-			a { text-decoration: none; color: #0088FF; }
-			body { height: 100vh; margin: 0; display: flex; flex-direction: column; }
-			div { color: white; font-family: 'Poppins', sans-serif; font-size: 24px; }
-			
-			#navigation { height: 60px; padding: 0 60px; flex: 0 0 auto; background: black; display: flex; flex-direction: row; }
-			.nav-btn { height: 36px; padding: 12px; margin: 0 5px; user-select: none; text-transform: uppercase; color: #BDBDBD; position: relative; user-select: none; cursor: pointer; transition: color 0.18s ease-in-out; }
-			.nav-btn:not(#nav-btn-watermark):not(.nav-btn-selected)::after { content: ''; position: absolute; bottom: 0; width: 0; height: 2px; margin: 0 auto; left: 0; right: 0; background: #BDBDBD; transition: width 0.18s ease-in-out, border-color 0.18s ease-in-out; }
-			.nav-btn:hover { color: #DFDFDF; border-color: #DFDFDF; }
-			.nav-btn:not(#nav-btn-watermark):not(.nav-btn-selected):hover::after { width: 50%; background: #DFDFDF; }
-			.nav-btn-selected { color: white; border-bottom: 2px solid white; padding-bottom: 10px; transition: border-color 0.18s ease-in-out; }
-			#nav-btn-watermark { color: #6F6F72; font-family: 'Comfortaa', cursive; font-size: 44px; text-transform: lowercase; height: 44px; margin-right: 48px; padding: 8px 12px; cursor: default; }
-			
-			#inner { width: 100%; height: 100%; background: black; transition: background 0.66s linear; position: relative; display: flex; }
-			#abs-text { width: min-content; margin: auto 0 auto 14.5%; padding: 24px; display: flex; flex-direction: column; z-index: 2; }
-			.headline-text { font-family: 'Comfortaa', cursive; font-size: 2.5vw; text-transform: lowercase; text-align: center; opacity: 0; transition: opacity 0.18s ease-in-out, color 0.13s ease-in-out; }
-			#headline-subtext { font-size: 0.85vw; width: 16.46vw; margin: 12px auto 0; opacity: 0; transition: opacity 0.66s ease-in-out; }
-			#abs-space { position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow: hidden; display: flex; z-index: 1; }
-			#preview-img { background-image: url('img/Screen%20Shot%202021-04-13%20at%205.51.45%20PM.png'); background-repeat: no-repeat; background-size: 100% 100%; width: 62.08vw; height: 43.33vw; margin: auto 0 auto auto; opacity: 0; transform: translateX(-268px); transition: transform 0.66s ease-in-out, opacity 0.34s linear; }
-		</style>
+		<link rel="stylesheet" href="index.css">
 	</head>
 	<body>
 		<div id="navigation">
