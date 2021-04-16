@@ -7,5 +7,5 @@ if (selectedBtn)
 githubBtn.addEventListener('click', () =>
 {
 	selectedBtn.classList.remove('nav-btn-selected', 'nav-btn-selected-transition');
-	githubBtn.classList.add('nav-btn-selected-transition');
+	githubBtn.classList.add('nav-btn-selected', 'nav-btn-selected-transition');
 });
