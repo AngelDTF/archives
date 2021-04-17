@@ -1,0 +1,9 @@
+html
+{
+	--bg-navigation: #000000;
+	--bg-primary: #4F4F54;
+	--fg-navigation: #BDBDBD;
+	--fg-navigation-hover: #DFDFDF;
+	--fg-navigation-selected: #FFFFFF;
+	--fg-primary: #FFFFFF;
+}
