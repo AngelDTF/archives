@@ -14,6 +14,6 @@ githubBtn.addEventListener('click', () =>
 
 liteBtn.addEventListener('click', () =>
 {
-	var newTheme = (themeElem.href == 'themes/dark.css') ? 'lite' : 'dark';
+	var newTheme = (themeElem.href.endsWith('themes/dark.css')) ? 'lite' : 'dark';
 	themeElem.href = `themes/${newTheme}.css`;
 });
