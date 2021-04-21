@@ -31,5 +31,5 @@ html { background: var(--bg-navigation); }
 
 /* FAQ page */
 #faq { display: flex; flex-direction: column; padding: 96px; }
-#faq-question { font-size: 28px; font-weight: 600; }
-#faq-answer { font-size: 28px; }
+.faq-question { font-size: 28px; font-weight: 600; }
+.faq-answer { font-size: 28px; }
