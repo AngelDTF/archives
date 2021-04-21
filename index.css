@@ -1,5 +1,5 @@
 a { text-decoration: none; color: #0088FF; }
-body { height: 100vh; margin: 0; display: flex; flex-direction: column; }
+body { height: 100vh; margin: 0; display: flex; flex-direction: column; overflow: hidden; }
 div { color: var(--fg-primary); font-family: 'Poppins', sans-serif; font-size: 24px; }
 flex-space { display: block; margin: auto; }
 html { background: var(--bg-navigation); }
@@ -30,6 +30,6 @@ html { background: var(--bg-navigation); }
 #preview-img { background-image: url('img/Screen%20Shot%202021-04-13%20at%205.51.45%20PM.png'); background-repeat: no-repeat; background-size: 100% 100%; width: 62.08vw; height: 43.33vw; margin: auto 0 auto auto; opacity: 0; transform: translateX(-268px); transition: transform 0.66s ease-in-out, opacity 0.34s linear; }
 
 /* FAQ page */
-#faq { display: flex; flex-direction: column; padding: 96px; }
+#faq { display: block; padding: 96px; overflow-x: auto; overflow-y: scroll; }
 .faq-question { font-size: 28px; font-weight: 600; }
 .faq-answer { font-size: 28px; }
