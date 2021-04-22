@@ -32,4 +32,4 @@ html { background: var(--bg-navigation); }
 /* FAQ page */
 #faq { display: block; padding: 96px; overflow-x: auto; overflow-y: scroll; }
 .faq-question { font-size: 28px; font-weight: 600; }
-.faq-answer { font-size: 28px; }
+.faq-answer { font-size: 28px; color: var(--fg-secondary); }
