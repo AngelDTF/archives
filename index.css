@@ -1,6 +1,7 @@
 /* Element CSS */
 a { text-decoration: none; color: #0088FF; }
 body { height: 100vh; margin: 0; display: flex; flex-direction: column; overflow: hidden; }
+code { background: #333333; color: #FFFFFF; padding: 3px; border-radius: 6px; }
 div { color: var(--fg-primary); font-family: 'Poppins', sans-serif; font-size: 24px; }
 flex-space { display: block; margin: auto; }
 html { background: var(--bg-navigation); }
