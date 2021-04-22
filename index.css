@@ -41,5 +41,6 @@ html { background: var(--bg-navigation); }
 
 /* FAQ page */
 #faq { padding: 96px; display: block; position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow-x: auto; overflow-y: scroll; }
+#faq code { font-size: 24px; }
 .faq-question { font-size: 28px; font-weight: 600; }
 .faq-answer { font-size: 28px; color: var(--fg-secondary); }
