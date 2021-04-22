@@ -26,7 +26,7 @@
 			</div>
 		</div>
 		<div id="inner">
-			<div id="faq">
+			<div id="faq" style="transform: translateX(-256px); opacity: 0;">
 				<div class="faq-question">Q. Has Lilac been released yet?</div>
 				<div class="faq-answer">A. No, Lilac is still in very early develoment and has no planned release date yet.</div>
 				<br>
@@ -48,4 +48,12 @@
 		</div>
 	</body>
 	<script src="index.js"></script>
+	<script>
+		setTimeout(() =>
+		{
+			const faq = document.querySelector('#faq');
+			faq.style.transform = '';
+			faq.style.opacity = '';
+		}, 10);
+	</script>
 </html>
