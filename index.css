@@ -46,4 +46,4 @@ html { background: var(--bg-navigation); }
 .faq-answer { font-size: 28px; color: var(--fg-secondary); }
 
 /* Download page */
-#center-page-warn { margin: auto; padding: 0 20%; text-align: center; }
+#center-page-warn { margin: auto; padding: 0 20%; text-align: center; transition: opacity 0.33s linear; }
