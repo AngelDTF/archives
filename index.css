@@ -1,6 +1,6 @@
 /* Element CSS */
 a { text-decoration: none; color: #0088FF; }
-body { height: 100vh; margin: 0; display: flex; flex-direction: column; overflow: hidden; }
+body { height: 100vh; margin: 0; display: flex; flex-direction: column; }
 code { background: #333333; color: #FFFFFF; padding: 3px; border-radius: 6px; }
 div { color: var(--fg-primary); font-family: 'Poppins', sans-serif; font-size: 24px; }
 flex-space { display: block; margin: auto; }
@@ -24,13 +24,13 @@ html { background: var(--bg-navigation); }
 .nav-btn-selected:hover::after { background: var(--fg-navigation-hover); }
 .nav-btn-selected-transition::after { width: 100%; }
 #nav-btn-watermark { color: #6F6F72; font-family: 'Comfortaa', cursive; font-size: 44px; text-transform: lowercase; height: 44px; margin-right: 48px; padding: 8px 12px; cursor: default; }
-#lite { width: 24px; height: 24px; margin: 16px; background: var(--fg-navigation-selected); border: 2px solid var(--fg-navigation-selected); border-radius: 50%; display: flex; flex-direction: row; overflow: hidden; cursor: pointer; transition: opacity 0.13s ease-in-out, border-color 0.18s ease-in-out; }
+#lite { width: 24px; height: 24px; margin: 16px; background: var(--fg-navigation-selected); border: 2px solid var(--fg-navigation-selected); border-radius: 50%; display: flex; flex-direction: row; flex: 0 0 auto; overflow: hidden; cursor: pointer; transition: opacity 0.13s ease-in-out, border-color 0.18s ease-in-out; }
 #lite:hover { opacity: 0.75; }
 #lite-inner-1, #lite-inner-2 { width: 50%; height: 100%; transition: background 0.18s ease-in-out; }
 #lite-inner-1 { background: transparent; }
 #lite-inner-2 { background: var(--bg-navigation); }
 
-#inner { width: 100%; height: 100%; background: var(--bg-primary); transition: background 0.66s linear; position: relative; display: flex; }
+#inner { width: 100%; height: 100%; background: var(--bg-primary); transition: background 0.66s linear; position: relative; display: flex; overflow: hidden; }
 
 /* HOME page */
 #abs-text { width: min-content; margin: auto 0 auto 8.88%; padding: 24px; display: flex; flex-direction: column; z-index: 2; }
