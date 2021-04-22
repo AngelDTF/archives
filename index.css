@@ -40,7 +40,7 @@ html { background: var(--bg-navigation); }
 #preview-img { background-image: url('img/Screen%20Shot%202021-04-13%20at%205.51.45%20PM.png'); background-repeat: no-repeat; background-size: 100% 100%; width: 62.08vw; height: 43.33vw; margin: auto 0 auto auto; opacity: 0; transform: translateX(-268px); transition: transform 0.66s ease-in-out, opacity 0.34s linear; }
 
 /* FAQ page */
-#faq { padding: 96px; display: block; position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow-x: auto; overflow-y: scroll; transition: transform 0.66s linear, opacity 0.66s linear; }
+#faq { padding: 96px; display: block; position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow-x: auto; overflow-y: scroll; transition: transform 0.33s linear, opacity 0.33s linear; }
 #faq code { font-size: 24px; }
 .faq-question { font-size: 28px; font-weight: 600; }
 .faq-answer { font-size: 28px; color: var(--fg-secondary); }
