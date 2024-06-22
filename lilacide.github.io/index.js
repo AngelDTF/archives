@@ -10,7 +10,7 @@ if (document.cookie != '')
 	if (theme == null)
 		theme = 'dark';
 }
-themeElem.href = `themes/${theme}.css`;
+themeElem.href = `/archives/lilacide.github.io/themes/${theme}.css`;
 
 if (selectedBtn)
 	setTimeout(() => selectedBtn.classList.add('nav-btn-selected-transition'), 10);
@@ -24,7 +24,7 @@ githubBtn.addEventListener('click', () =>
 liteBtn.addEventListener('click', () =>
 {
 	theme = (themeElem.href.endsWith('themes/dark.css')) ? 'lite' : 'dark';
-	themeElem.href = `themes/${theme}.css`;
+	themeElem.href = `/archives/lilacide.github.io/themes/${theme}.css`;
 	setCookie('theme', theme);
 });
 
